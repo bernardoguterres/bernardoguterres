@@ -22,18 +22,11 @@ I build end-to-end systems — from research and backtesting through to live exe
 ![Python](https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=3b82f6)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=3b82f6)
 ![React](https://img.shields.io/badge/React-0a0a0a?style=flat-square&logo=react&logoColor=3b82f6)
-![Rust](https://img.shields.io/badge/Rust-0a0a0a?style=flat-square&logo=rust&logoColor=3b82f6)
 ![Flask](https://img.shields.io/badge/Flask-0a0a0a?style=flat-square&logo=flask&logoColor=3b82f6)
 ![SQL](https://img.shields.io/badge/SQL-0a0a0a?style=flat-square&logo=postgresql&logoColor=3b82f6)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0a0a0a?style=flat-square&logo=scikitlearn&logoColor=3b82f6)
 ![Docker](https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=3b82f6)
-
----
-
-### Stats
-
-![Bernardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=bernardoguterres&show_icons=true&theme=dark&bg_color=0a0a0a&border_color=262626&icon_color=3b82f6&title_color=fafafa&text_color=a1a1a1&hide_border=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bernardoguterres&layout=compact&theme=dark&bg_color=0a0a0a&border_color=262626&title_color=fafafa&text_color=a1a1a1)
+![Rust](https://img.shields.io/badge/Rust-0a0a0a?style=flat-square&logo=rust&logoColor=3b82f6)
 
 ---
 
