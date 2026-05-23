@@ -9,7 +9,7 @@ I build end-to-end systems — from research and backtesting through to live exe
 
 | Project | Description |
 |---|---|
-| [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab) | Desktop backtesting platform — 6 strategies, 50+ indicators, walk-forward validation, Monte Carlo simulation. React/TypeScript + Flask + Tauri (Rust), under 10MB, 230+ passing tests |
+| [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab) | Desktop backtesting platform — 6 strategies, 50+ indicators, walk-forward validation, Monte Carlo simulation. React/TypeScript + Flask + Tauri (Rust), under 10MB, 233 passing tests |
 | [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive) | 24/7 live execution engine on Railway. Consumes AlphaLab strategies, trades via Alpaca, production-grade risk management (circuit breakers, kill switch, trailing stops), real-time FastAPI/WebSocket dashboard |
 | [**AlphaSignal**](https://github.com/bernardoguterres/AlphaSignal) | Financial RAG system — ingests SEC EDGAR filings & news, hybrid BM25 + FAISS dense retrieval, cross-encoder reranking, sentiment extraction. 7 REST API endpoints, 89% test coverage |
 | [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance) | XAI framework for dimensionality reduction in regulated finance. Bridges the "discrete logic gap" — converts continuous SHAP attributions into EBA/ECB/SR 11-7 compliant IF-THEN rules. 8,863 lines, 6 DR methods, 5 XAI techniques. Pending publication |
