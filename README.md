@@ -1,7 +1,7 @@
 # Hi, I'm Bernardo 👋
 **CS @ King's College London** · **MSc Data Science & ML @ UCL (incoming)** · Building at the intersection of quantitative finance and machine learning
 
-I build end-to-end systems — from research and backtesting through to live execution and monitoring. Currently focused on algorithmic trading infrastructure, applied ML, and explainable AI in regulated finance.
+I build end-to-end systems - from research and backtesting through to live execution and monitoring. Currently focused on algorithmic trading infrastructure, applied ML, and explainable AI in regulated finance.
 
 ---
 
@@ -9,11 +9,10 @@ I build end-to-end systems — from research and backtesting through to live exe
 
 | Project | Description |
 |---|---|
-| [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab) | Desktop backtesting platform — 8 strategies, 50+ indicators, walk-forward validation, Monte Carlo simulation. React/TypeScript + Flask + Tauri (Rust), under 10MB, 233 passing tests |
-| [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive) | 24/7 live execution engine on Railway. Consumes AlphaLab strategies, trades via Alpaca, production-grade risk management (circuit breakers, kill switch, trailing stops), real-time FastAPI/WebSocket dashboard. Pre-execution gate runs DeepLOB + AlphaSignal concurrently via asyncio.gather before every order |
-| [**AlphaSignal**](https://github.com/bernardoguterres/AlphaSignal) | Financial RAG system — ingests SEC EDGAR filings & news, hybrid BM25 + FAISS dense retrieval, cross-encoder reranking, sentiment extraction. 7 REST API endpoints, 89% test coverage |
-| [**DeepLOB**](https://github.com/bernardoguterres/DeepLOB) | PyTorch CNN+Inception+LSTM reimplementation of DeepLOB (Zhang et al. 2019). Trained on FI-2010, macro F1 0.78 at k=5. Integrated Gradients + SHAP explainability. FastAPI inference server deployed as an execution timing filter in AlphaLive |
-| [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance) | XAI framework for dimensionality reduction in regulated finance. Bridges the "discrete logic gap" — converts continuous SHAP attributions into EBA/ECB/SR 11-7 compliant IF-THEN rules. 8,867 lines, 6 DR methods, 5 XAI techniques, 16 modules. Pending publication |
+| [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab) | Desktop backtesting platform - 8 strategies, 50+ indicators, walk-forward validation, Monte Carlo simulation, Greenblatt Magic Formula screener. React/TypeScript + Flask + Tauri (Rust), under 10MB, 293 tests (91% coverage) |
+| [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive) | 24/7 live execution engine on Railway. Consumes AlphaLab strategies, trades via Alpaca, production-grade risk management (circuit breakers, kill switch, trailing stops), real-time FastAPI/WebSocket dashboard. Pre-execution gate calls AlphaSignal's sentiment endpoint before every order (fails open) |
+| [**AlphaSignal**](https://github.com/bernardoguterres/AlphaSignal) | Financial RAG system - ingests SEC EDGAR filings & news, hybrid BM25 + FAISS dense retrieval, cross-encoder reranking, sentiment extraction. 7 REST API endpoints, 150 tests (92% coverage) |
+| [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance) | XAI framework for dimensionality reduction in regulated finance. Bridges the "discrete logic gap" - converts continuous SHAP attributions into EBA/ECB/SR 11-7 compliant IF-THEN rules. 8,867 lines, 6 DR methods, 5 XAI techniques, 16 modules. Pending publication |
 | [**nbaMVPPredictor**](https://github.com/bernardoguterres/nbaMVPPredictor) | ML ranking model (Ridge/RF/XGBoost) across 34 seasons, 52 engineered features, SHAP analysis, time-aware backtest with no data leakage |
 
 ---
