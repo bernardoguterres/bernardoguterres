@@ -18,7 +18,7 @@ flowchart LR
 | Project | Description |
 |---|---|
 | [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab) | Backtesting and validation platform with runtime-verified next-bar execution, realistic transaction costs, train-only walk-forward selection, and schema-validated strategy export to AlphaLive. |
-| [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive) | Restart-safe execution and risk engine for AlphaLab strategies, featuring idempotent orders, circuit breakers and 99.5–99.9% measured cross-system signal parity (not yet live-validated). |
+| [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive) | Restart-safe execution and risk engine for AlphaLab strategies, featuring idempotent orders, circuit breakers and [zero decision-bar mismatches on seven daily/intraday strategy fixtures using SPY/MSFT data](https://github.com/bernardoguterres/AlphaLive#alphalab-compatibility-and-measured-parity) (bounded test evidence; not yet live-validated). |
 | [**AlphaSignal**](https://github.com/bernardoguterres/AlphaSignal) | Financial RAG service combining hybrid BM25 and dense retrieval, cross-encoder reranking, citation-verified generation and sentiment signals consumed by AlphaLive (retrieval quality not yet benchmarked). |
 | [**DeepLOB**](https://github.com/bernardoguterres/DeepLOB) | PyTorch CNN + Inception + LSTM reimplementation of DeepLOB (Zhang et al., 2019), trained on FI-2010 (macro F1 0.78 at k=5), with Integrated Gradients and SHAP explainability and a FastAPI inference server used by AlphaLive. |
 
