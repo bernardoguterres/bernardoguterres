@@ -31,15 +31,10 @@ I build ML systems, local-first AI, and tools for trading research.
 - [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance): explainable AI for financial models, combining dimensionality reduction with explainability methods to produce auditable IF–THEN rules.
 - [**nbaMVPPredictor**](https://github.com/bernardoguterres/nbaMVPPredictor): ML ranking system forecasting NBA MVP vote shares, with a time-aware rolling backtest and SHAP explainability.
 
-## GitHub activity snapshot
+## Selected highlights
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="cards/contributions-dark.svg"><img src="cards/contributions-light.svg" width="100%" alt="Heatmap of my public GitHub contributions over the last year, one copper cell per day."></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="cards/monthly-dark.svg"><img src="cards/monthly-light.svg" width="100%" alt="Bar chart of public contributions per month with total, active days, streaks and busiest day."></picture>
-
-<!-- stats:start -->
-Public contributions, Nov 9, 2025 – Nov 11, 2026: **875 total** · 59 active days · current streak 2 days · longest streak 8 days (Jul 8, 2026 – Jul 15, 2026) · busiest day Oct 25, 2026 (131) · busiest month July 2026 (224).
-<!-- stats:end -->
+- **Encode Club London Hackathon — Google DeepMind track winner.** Co-built Andes, an AI assistant that proposes recovery plans for a simulated electricity grid using Chilean demand and generation data.
+- **G-Research London Quant Challenge — Round 3 winner.** Our team built a strategy that adapted its decisions as new information arrived and accounted for competition from other teams.
 
 **Core stack:** Python · PyTorch · scikit-learn · FastAPI · Flask · SQL · TypeScript · React · Docker · C++
 
