@@ -553,6 +553,8 @@ def stats_markdown(s: dict) -> str:
 def update_readme(s: dict) -> None:
     text = README.read_text()
     a, b = text.find(MARK_START), text.find(MARK_END)
+    if a == -1 and b == -1:
+        return
     if a < 0 or b < a:
         raise SystemExit("README.md is missing the stats markers")
     new = text[:a] + stats_markdown(s) + text[b + len(MARK_END):]
