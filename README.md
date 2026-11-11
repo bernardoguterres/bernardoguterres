@@ -3,14 +3,6 @@
 **Bernardo Guterres** · MSc Data Science & Machine Learning at UCL · London, UK\
 I build ML systems, local-first AI, and tools for trading research.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="cards/contributions-dark.svg"><img src="cards/contributions-light.svg" width="100%" alt="Heatmap of my public GitHub contributions over the last year, one copper cell per day."></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="cards/monthly-dark.svg"><img src="cards/monthly-light.svg" width="100%" alt="Bar chart of public contributions per month with total, active days, streaks and busiest day."></picture>
-
-<!-- stats:start -->
-Public contributions, Nov 9, 2025 – Nov 11, 2026: **875 total** · 59 active days · current streak 2 days · longest streak 8 days (Jul 8, 2026 – Jul 15, 2026) · busiest day Oct 25, 2026 (131) · busiest month July 2026 (224).
-<!-- stats:end -->
-
 <a href="https://bernardoguterres.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/tile-portfolio-dark.svg"><img src="cards/tile-portfolio-light.svg" width="32%" alt="Portfolio: bernardoguterres.vercel.app"></picture></a> <a href="https://github.com/bernardoguterres?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/tile-repositories-dark.svg"><img src="cards/tile-repositories-light.svg" width="32%" alt="Repositories: my public GitHub repositories"></picture></a> <a href="https://www.linkedin.com/in/bernardoguterres/"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/tile-linkedin-dark.svg"><img src="cards/tile-linkedin-light.svg" width="32%" alt="LinkedIn: in/bernardoguterres"></picture></a>
 
 [Portfolio](https://bernardoguterres.vercel.app/) · [Repositories](https://github.com/bernardoguterres?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/bernardoguterres/) · [Email](mailto:bernardomloguterres@gmail.com)
@@ -38,6 +30,16 @@ Public contributions, Nov 9, 2025 – Nov 11, 2026: **875 total** · 59 active d
 - [**DeepLOB**](https://github.com/bernardoguterres/DeepLOB): PyTorch reimplementation of DeepLOB (Zhang et al., 2019) trained on FI-2010, with Integrated Gradients and SHAP explainability and a FastAPI inference server.
 - [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance): explainable AI for financial models, combining dimensionality reduction with explainability methods to produce auditable IF–THEN rules.
 - [**nbaMVPPredictor**](https://github.com/bernardoguterres/nbaMVPPredictor): ML ranking system forecasting NBA MVP vote shares, with a time-aware rolling backtest and SHAP explainability.
+
+## GitHub activity snapshot
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/contributions-dark.svg"><img src="cards/contributions-light.svg" width="100%" alt="Heatmap of my public GitHub contributions over the last year, one copper cell per day."></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/monthly-dark.svg"><img src="cards/monthly-light.svg" width="100%" alt="Bar chart of public contributions per month with total, active days, streaks and busiest day."></picture>
+
+<!-- stats:start -->
+Public contributions, Nov 9, 2025 – Nov 11, 2026: **875 total** · 59 active days · current streak 2 days · longest streak 8 days (Jul 8, 2026 – Jul 15, 2026) · busiest day Oct 25, 2026 (131) · busiest month July 2026 (224).
+<!-- stats:end -->
 
 **Core stack:** Python · PyTorch · scikit-learn · FastAPI · Flask · SQL · TypeScript · React · Docker · C++
 
