@@ -533,6 +533,28 @@ def small(t: dict, which: str) -> Card:
     return c
 
 
+def highlights(t: dict) -> Card:
+    c = Card(1000, 294, t, "Selected highlights",
+             "Team wins in 2026: Google DeepMind track at the Encode Club London Hackathon, "
+             "and Round 3 of the G-Research London Quant Challenge.")
+    awards = (
+        (97, "Encode Club London Hackathon", "GOOGLE DEEPMIND TRACK WINNER"),
+        (226, "G-Research London Quant Challenge", "ROUND 3 WINNER"),
+    )
+    c.add(f'<path d="M42 147 H958" stroke="{t["edge"]}" stroke-width="1.5"/>')
+    for i, (y, name, award) in enumerate(awards):
+        c.add(f'<circle cx="65" cy="{y - 22}" r="18" fill="{t["chip"]}" stroke="{t["accent"]}"/>'
+              f'<path d="M57 {y - 22} l5 5 l10 -10" fill="none" stroke="{t["accent"]}" '
+              'stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>')
+        c.text(105, y - 26, award, "mono5", 23, "accent", tracking=0.05)
+        c.text(103, y + 19, name, "serif", 43)
+        if not STATIC:
+            c.add(f'<path d="M105 {y + 36} h122" pathLength="1" class="draw" '
+                  f'fill="none" stroke="{t["accent"]}" stroke-width="2.5" stroke-linecap="round"'
+                  f'{anim(0.15 + i * 0.35)}/>')
+    return c
+
+
 # ---------------------------------------------------------------- README stats
 README = ROOT / "README.md"
 MARK_START, MARK_END = "<!-- stats:start -->", "<!-- stats:end -->"
@@ -576,6 +598,7 @@ def main() -> int:
         "alpha-system": lambda t: alpha(t),
         "jarvis": lambda t: small(t, "jarvis"),
         "runnasup": lambda t: small(t, "runnasup"),
+        "highlights": lambda t: highlights(t),
     }
     for name, fn in jobs.items():
         for theme, t in THEMES.items():
