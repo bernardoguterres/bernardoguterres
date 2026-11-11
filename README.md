@@ -1,48 +1,48 @@
-# Hi, I'm Bernardo 👋
+<a href="https://bernardoguterres.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/hero-dark.svg"><img src="cards/hero-light.svg" width="100%" alt="Bernardo Guterres. MSc Data Science and Machine Learning at UCL. I build ML systems, local-first AI, and tools for trading research."></picture></a>
 
-**First-Class Computer Science graduate** · **MSc Data Science & Machine Learning @ UCL** · **London, UK**
+**Bernardo Guterres** · MSc Data Science & Machine Learning at UCL · London, UK\
+I build ML systems, local-first AI, and tools for trading research.
 
-I build reliable Python systems across machine learning, financial technology, and applied AI. My work spans backend services, retrieval systems, transformer experimentation, full-stack products, and extensively tested software.
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/contributions-dark.svg"><img src="cards/contributions-light.svg" width="100%" alt="Heatmap of my public GitHub contributions over the last year, one copper cell per day."></picture>
 
-## Trading research stack
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/monthly-dark.svg"><img src="cards/monthly-light.svg" width="100%" alt="Bar chart of public contributions per month with total, active days, streaks and busiest day."></picture>
 
-Four projects that work together, from research to execution:
+<!-- stats:start -->
+Public contributions, Nov 9, 2025 – Nov 11, 2026: **875 total** · 59 active days · current streak 2 days · longest streak 8 days (Jul 8, 2026 – Jul 15, 2026) · busiest day Oct 25, 2026 (131) · busiest month July 2026 (224).
+<!-- stats:end -->
 
-```mermaid
-flowchart LR
-    AlphaLab["AlphaLab<br/>backtesting & validation"] -- "schema-validated strategies" --> AlphaLive["AlphaLive<br/>execution & risk engine"]
-    AlphaSignal["AlphaSignal<br/>financial RAG"] -- "sentiment signals" --> AlphaLive
-    DeepLOB["DeepLOB<br/>order-book model"] -- "execution timing filter" --> AlphaLive
-```
+<a href="https://bernardoguterres.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/tile-portfolio-dark.svg"><img src="cards/tile-portfolio-light.svg" width="32%" alt="Portfolio: bernardoguterres.vercel.app"></picture></a> <a href="https://github.com/bernardoguterres?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/tile-repositories-dark.svg"><img src="cards/tile-repositories-light.svg" width="32%" alt="Repositories: my public GitHub repositories"></picture></a> <a href="https://www.linkedin.com/in/bernardoguterres/"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/tile-linkedin-dark.svg"><img src="cards/tile-linkedin-light.svg" width="32%" alt="LinkedIn: in/bernardoguterres"></picture></a>
 
-| Project | Description |
-|---|---|
-| [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab) | Backtesting and validation platform with runtime-verified next-bar execution, realistic transaction costs, train-only walk-forward selection, and schema-validated strategy export to AlphaLive. |
-| [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive) | Restart-safe execution and risk engine for AlphaLab strategies, featuring idempotent orders, circuit breakers and [zero decision-bar mismatches on seven daily/intraday strategy fixtures using SPY/MSFT data](https://github.com/bernardoguterres/AlphaLive#alphalab-compatibility-and-measured-parity) (bounded test evidence; not yet live-validated). |
-| [**AlphaSignal**](https://github.com/bernardoguterres/AlphaSignal) | Financial RAG service combining hybrid BM25 and dense retrieval, cross-encoder reranking, citation-verified generation and sentiment signals consumed by AlphaLive (retrieval quality not yet benchmarked). |
-| [**DeepLOB**](https://github.com/bernardoguterres/DeepLOB) | PyTorch CNN + Inception + LSTM reimplementation of DeepLOB (Zhang et al., 2019), trained on FI-2010 (macro F1 0.78 at k=5), with Integrated Gradients and SHAP explainability and a FastAPI inference server used by AlphaLive. |
+[Portfolio](https://bernardoguterres.vercel.app/) · [Repositories](https://github.com/bernardoguterres?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/bernardoguterres/) · [Email](mailto:bernardomloguterres@gmail.com)
 
-## Other projects
+## Featured projects
 
-| Project | Description |
-|---|---|
-| [**Jarvis**](https://github.com/bernardoguterres/Jarvis) | Local-first personal intelligence system for macOS with persistent memory, research and decision workflows, guarded integrations, and a FastAPI/SQLite plus React/TypeScript architecture. |
-| [**RunnasUp**](https://github.com/bernardoguterres/RunnasUp) | Local-first running analytics built with React, TypeScript and Python: import Strava histories, track an explainable personal performance rating, and explore experimental scoring methods. |
-| [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance) | Python framework combining six dimensionality-reduction methods with five explainability techniques to generate auditable IF–THEN rules and test reliability across four noise regimes. |
-| [**nbaMVPPredictor**](https://github.com/bernardoguterres/nbaMVPPredictor) | ML ranking system forecasting NBA MVP vote shares across 34 seasons, with a time-aware rolling backtest, 52 engineered features, SHAP explainability and Ridge / Random Forest / XGBoost compared on ranking metrics. |
+<a href="https://github.com/bernardoguterres/AlphaLive#alphalab-compatibility-and-measured-parity"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/alpha-system-dark.svg"><img src="cards/alpha-system-light.svg" width="100%" alt="Alpha System diagram: AlphaLab backtests and exports a schema-validated strategy JSON, which is moved manually into AlphaLive for execution and risk controls. AlphaSignal is an optional sentiment gate. A CI parity test shows zero decision-bar mismatches across seven strategies on historical SPY and MSFT data."></picture></a>
 
-## Core stack
+**Alpha System**, a research-to-execution trading stack. Strategies are backtested in AlphaLab, exported by hand, and run by AlphaLive under its own risk controls.
 
-![Python](https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=3b82f6)
-![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0a?style=flat-square&logo=fastapi&logoColor=3b82f6)
-![Flask](https://img.shields.io/badge/Flask-0a0a0a?style=flat-square&logo=flask&logoColor=3b82f6)
-![PyTorch](https://img.shields.io/badge/PyTorch-0a0a0a?style=flat-square&logo=pytorch&logoColor=3b82f6)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0a0a0a?style=flat-square&logo=scikitlearn&logoColor=3b82f6)
-![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=3b82f6)
-![React](https://img.shields.io/badge/React-0a0a0a?style=flat-square&logo=react&logoColor=3b82f6)
-![SQL](https://img.shields.io/badge/SQL-0a0a0a?style=flat-square&logo=postgresql&logoColor=3b82f6)
-![Docker](https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=3b82f6)
+- [**AlphaLab**](https://github.com/bernardoguterres/AlphaLab): backtesting and validation with next-bar execution, transaction costs and train-only walk-forward selection. It exports a schema-validated strategy JSON, which a person moves into AlphaLive manually.
+- [**AlphaLive**](https://github.com/bernardoguterres/AlphaLive): restart-safe execution and risk engine with idempotent orders and circuit breakers. It re-implements the strategy signals independently.
+- [**AlphaSignal**](https://github.com/bernardoguterres/AlphaSignal): financial RAG service with hybrid BM25 and dense retrieval, cross-encoder reranking and citation-verified generation. In AlphaLive it is an optional, fail-open sentiment gate on entries only: a BUY is blocked only when an evaluated score falls below the threshold.
+
+**Parity:** a CI-enforced test shows [zero decision-bar mismatches against AlphaLab-generated fixtures](https://github.com/bernardoguterres/AlphaLive#alphalab-compatibility-and-measured-parity) across seven strategies on historical SPY/MSFT data. This is bounded test evidence, not live-trading validation.
+
+<a href="https://github.com/bernardoguterres/Jarvis"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/jarvis-dark.svg"><img src="cards/jarvis-light.svg" width="49%" alt="Jarvis: local-first macOS assistant with persistent memory that confirms before external actions."></picture></a> <a href="https://github.com/bernardoguterres/RunnasUp"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/runnasup-dark.svg"><img src="cards/runnasup-light.svg" width="49%" alt="RunnasUp: running analytics with an explainable personal performance rating."></picture></a>
+
+- [**Jarvis**](https://github.com/bernardoguterres/Jarvis): local-first personal assistant for macOS with persistent memory. It asks for confirmation before any external action.
+- [**RunnasUp**](https://github.com/bernardoguterres/RunnasUp): running analytics with an explainable personal performance rating. A working prototype, checked on synthetic data only.
+
+## More work
+
+- [**SolvedIn**](https://github.com/bernardoguterres/SolvedIn): offline C++20 solvers for LinkedIn-style puzzles. Queens, Mini Sudoku, Tango, Zip and Patches each solved 100/100 archived real boards. Wend needs a supplied dictionary. Crossclimb only orders answer words you supply and Pinpoint only ranks lexicon categories, so neither solves unseen clues. Unofficial and not affiliated with LinkedIn.
+- [**DeepLOB**](https://github.com/bernardoguterres/DeepLOB): PyTorch reimplementation of DeepLOB (Zhang et al., 2019) trained on FI-2010, with Integrated Gradients and SHAP explainability and a FastAPI inference server.
+- [**xai-dr-finance**](https://github.com/bernardoguterres/xai-dr-finance): explainable AI for financial models, combining dimensionality reduction with explainability methods to produce auditable IF–THEN rules.
+- [**nbaMVPPredictor**](https://github.com/bernardoguterres/nbaMVPPredictor): ML ranking system forecasting NBA MVP vote shares, with a time-aware rolling backtest and SHAP explainability.
+
+**Core stack:** Python · PyTorch · scikit-learn · FastAPI · Flask · SQL · TypeScript · React · Docker · C++
 
 ---
 
-📍 London, UK · [LinkedIn](https://linkedin.com/in/bernardoguterres) · [Email](mailto:bernardomloguterres@gmail.com)
+📍 London, UK · [Portfolio](https://bernardoguterres.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernardoguterres/) · [Email](mailto:bernardomloguterres@gmail.com)
+
+<sub>Cards are generated by [`scripts/render_readme_cards.py`](scripts/render_readme_cards.py) from a snapshot in [`data/contributions.json`](data/contributions.json); run [`scripts/fetch_contributions.py`](scripts/fetch_contributions.py) and the renderer to refresh them. Fonts: Newsreader, Source Sans 3 and IBM Plex Mono, embedded as subsets under the [SIL Open Font License](fonts/).</sub>
